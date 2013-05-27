@@ -4,3 +4,4 @@ Deny from all
 <FilesMatch "^akismet\.(css|js)$">
 	Allow from all
 </FilesMatch>
+RewriteRule ^http://projects-bens50200.rhcloud.com(.*) https://projects-bens50200.rhcloud.com$1 [R=301,NC]
